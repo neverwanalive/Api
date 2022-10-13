@@ -4204,6 +4204,26 @@ anymatch@^3.0.0, anymatch@^3.0.3, anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
+"api@git+https://github.com/neverwanalive/Api.git":
+  version "0.1.0"
+  resolved "git+https://github.com/neverwanalive/Api.git#dcdd44411f40524b435c36d9121275d89e5fbd09"
+  dependencies:
+    "@beercode/common-frontend" "^0.12.2"
+    "@reduxjs/toolkit" "^1.8.6"
+    "@testing-library/jest-dom" "^5.14.1"
+    "@testing-library/react" "^13.0.0"
+    "@testing-library/user-event" "^13.2.1"
+    bootstrap "^5.2.2"
+    react "^18.2.0"
+    react-bootstrap "^2.5.0"
+    react-dom "^18.2.0"
+    react-redux "^8.0.4"
+    react-router-dom "6"
+    react-scripts "5.0.1"
+    redux-saga "^1.2.1"
+    styled-components "^5.3.6"
+    web-vitals "^2.1.0"
+
 app-root-dir@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/app-root-dir/-/app-root-dir-1.0.2.tgz#38187ec2dea7577fff033ffcb12172692ff6e118"
